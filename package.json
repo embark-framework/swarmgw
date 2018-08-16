@@ -1,14 +1,16 @@
 {
   "name": "swarmgw",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Simple interface to swarm-gateways.net",
   "main": "index.js",
   "bin": {
     "swarmgw": "./swarmgw"
   },
   "dependencies": {
+    "klaw": "^3.0.0",
     "request": "^2.87.0",
     "swarmhash": "^0.1.0",
+    "through2": "^2.0.3",
     "xhr": "^2.5.0",
     "yargs": "^12.0.0"
   },
